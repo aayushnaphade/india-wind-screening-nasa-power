@@ -1,0 +1,114 @@
+{
+  "resource": {
+    "cities": 60,
+    "records": 1421280,
+    "valid_records": 1419840,
+    "mean_v100": 5.45588192122409,
+    "mean_wpd": 157.67815939357126,
+    "mean_rho": 1.1351172710850215,
+    "top_cities": [
+      {
+        "city": "Bhuj",
+        "wpd": 272.19,
+        "v100": 6.92
+      },
+      {
+        "city": "Tuticorin",
+        "wpd": 260.76,
+        "v100": 6.72
+      },
+      {
+        "city": "Jamnagar",
+        "wpd": 259.56,
+        "v100": 6.83
+      },
+      {
+        "city": "Rajkot",
+        "wpd": 237.13,
+        "v100": 6.62
+      },
+      {
+        "city": "Belgaum",
+        "wpd": 233.76,
+        "v100": 6.26
+      }
+    ],
+    "bottom_city": [
+      {
+        "city": "Dehradun",
+        "wpd": 27.59
+      }
+    ],
+    "cities_wpd_ge_200": 15,
+    "cities_wpd_lt_100": 7,
+    "median_city_wpd": 157.17784538045163,
+    "monthly_mean_wpd": {
+      "1": 112.6,
+      "2": 113.6,
+      "3": 116.9,
+      "4": 134.9,
+      "5": 175.1,
+      "6": 229.8,
+      "7": 331.6,
+      "8": 184.2,
+      "9": 134.9,
+      "10": 79.6,
+      "11": 93.0,
+      "12": 115.7
+    },
+    "peak_month": 7,
+    "low_month": 10,
+    "jja_to_ond_ratio": 2.586566436504113
+  },
+  "ml": {
+    "train_rows": 250000,
+    "test_rows": 367200,
+    "best": "Random forest",
+    "table": [
+      {
+        "method": "Random forest",
+        "test_records": 367200,
+        "MAE": 82.685,
+        "RMSE": 154.643,
+        "R2": 0.536,
+        "nRMSE": 92.853
+      },
+      {
+        "method": "HistGradientBoosting",
+        "test_records": 367200,
+        "MAE": 82.235,
+        "RMSE": 155.006,
+        "R2": 0.534,
+        "nRMSE": 93.071
+      },
+      {
+        "method": "Extra trees",
+        "test_records": 367200,
+        "MAE": 82.517,
+        "RMSE": 156.587,
+        "R2": 0.525,
+        "nRMSE": 94.021
+      },
+      {
+        "method": "Persistence (24 h)",
+        "test_records": 367200,
+        "MAE": 90.695,
+        "RMSE": 162.149,
+        "R2": 0.49,
+        "nRMSE": 97.36
+      },
+      {
+        "method": "Ridge",
+        "test_records": 367200,
+        "MAE": 136.492,
+        "RMSE": 534.426,
+        "R2": -4.537,
+        "nRMSE": 320.888
+      }
+    ],
+    "city_r2_median": 0.3812742360903491,
+    "city_r2_min": 0.03135244820262417,
+    "city_r2_max": 0.7574747722022865,
+    "cities_r2_below_0": 0
+  }
+}

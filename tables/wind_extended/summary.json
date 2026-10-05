@@ -1,0 +1,500 @@
+{
+  "weibull": {
+    "k_median": 2.3397258522252917,
+    "k_min": [
+      {
+        "city": "Dehradun",
+        "k": 1.97
+      }
+    ],
+    "k_max": [
+      {
+        "city": "Jamnagar",
+        "k": 2.96
+      }
+    ],
+    "wpd_bias_pct_median": 0.4584162576123374,
+    "wpd_bias_pct_range": [
+      -1.7842839237188879,
+      2.256981210490472
+    ],
+    "r_weibull_emp": 0.9997258446961235
+  },
+  "cf": {
+    "mean": 0.13314874806660154,
+    "median": 0.13249782970287438,
+    "top": [
+      {
+        "city": "Bhuj",
+        "cf": 0.234
+      },
+      {
+        "city": "Tuticorin",
+        "cf": 0.226
+      },
+      {
+        "city": "Jamnagar",
+        "cf": 0.225
+      },
+      {
+        "city": "Rajkot",
+        "cf": 0.206
+      },
+      {
+        "city": "Belgaum",
+        "cf": 0.194
+      }
+    ],
+    "bottom": [
+      {
+        "city": "Dehradun",
+        "cf": 0.017
+      },
+      {
+        "city": "Shimla",
+        "cf": 0.044
+      },
+      {
+        "city": "Mangalore",
+        "cf": 0.058
+      }
+    ],
+    "ge_25pct": 0,
+    "lt_10pct": 18,
+    "spearman_cf_wpd": 0.998388396454472,
+    "below_cutin_median": 0.16962474645030426,
+    "longest_calm": [
+      {
+        "city": "Dehradun",
+        "longest_calm_h": 1023
+      },
+      {
+        "city": "Shimla",
+        "longest_calm_h": 272
+      },
+      {
+        "city": "Kanpur",
+        "longest_calm_h": 115
+      }
+    ],
+    "monthly_cf": {
+      "1": 9.4,
+      "2": 9.5,
+      "3": 9.8,
+      "4": 11.5,
+      "5": 15.1,
+      "6": 19.9,
+      "7": 27.8,
+      "8": 15.6,
+      "9": 11.5,
+      "10": 6.3,
+      "11": 7.4,
+      "12": 9.8
+    }
+  },
+  "table3": [
+    {
+      "city": "Bhuj",
+      "state": "Gujarat",
+      "v100": 6.924,
+      "k": 2.882,
+      "c": 7.732,
+      "wpd": 272.186,
+      "cf": 0.234,
+      "below_cutin": 0.077,
+      "longest_calm_h": 48
+    },
+    {
+      "city": "Tuticorin",
+      "state": "Tamil Nadu",
+      "v100": 6.724,
+      "k": 2.685,
+      "c": 7.538,
+      "wpd": 260.757,
+      "cf": 0.226,
+      "below_cutin": 0.095,
+      "longest_calm_h": 33
+    },
+    {
+      "city": "Jamnagar",
+      "state": "Gujarat",
+      "v100": 6.832,
+      "k": 2.957,
+      "c": 7.631,
+      "wpd": 259.565,
+      "cf": 0.225,
+      "below_cutin": 0.068,
+      "longest_calm_h": 76
+    },
+    {
+      "city": "Rajkot",
+      "state": "Gujarat",
+      "v100": 6.617,
+      "k": 2.896,
+      "c": 7.398,
+      "wpd": 237.131,
+      "cf": 0.206,
+      "below_cutin": 0.078,
+      "longest_calm_h": 74
+    },
+    {
+      "city": "Belgaum",
+      "state": "Karnataka",
+      "v100": 6.262,
+      "k": 2.233,
+      "c": 7.072,
+      "wpd": 233.759,
+      "cf": 0.194,
+      "below_cutin": 0.131,
+      "longest_calm_h": 24
+    },
+    {
+      "city": "Solapur",
+      "state": "Maharashtra",
+      "v100": 6.227,
+      "k": 2.224,
+      "c": 7.024,
+      "wpd": 231.95,
+      "cf": 0.187,
+      "below_cutin": 0.133,
+      "longest_calm_h": 37
+    },
+    {
+      "city": "Hubli Dharwad",
+      "state": "Karnataka",
+      "v100": 6.3,
+      "k": 2.364,
+      "c": 7.1,
+      "wpd": 226.12,
+      "cf": 0.189,
+      "below_cutin": 0.118,
+      "longest_calm_h": 32
+    },
+    {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "v100": 6.454,
+      "k": 2.525,
+      "c": 7.259,
+      "wpd": 225.024,
+      "cf": 0.188,
+      "below_cutin": 0.094,
+      "longest_calm_h": 41
+    },
+    {
+      "city": "Kurnool",
+      "state": "Andhra Pradesh",
+      "v100": 6.332,
+      "k": 2.492,
+      "c": 7.13,
+      "wpd": 224.853,
+      "cf": 0.189,
+      "below_cutin": 0.102,
+      "longest_calm_h": 47
+    },
+    {
+      "city": "Nashik",
+      "state": "Maharashtra",
+      "v100": 6.219,
+      "k": 2.338,
+      "c": 7.016,
+      "wpd": 221.126,
+      "cf": 0.185,
+      "below_cutin": 0.116,
+      "longest_calm_h": 18
+    }
+  ],
+  "states": [
+    {
+      "state": "Gujarat",
+      "cities": 7,
+      "wpd": 216.232,
+      "cf": 0.187,
+      "k": 2.767
+    },
+    {
+      "state": "Telangana",
+      "cities": 1,
+      "wpd": 201.67,
+      "cf": 0.166,
+      "k": 2.257
+    },
+    {
+      "state": "Maharashtra",
+      "cities": 6,
+      "wpd": 191.091,
+      "cf": 0.159,
+      "k": 2.288
+    },
+    {
+      "state": "Karnataka",
+      "cities": 5,
+      "wpd": 188.951,
+      "cf": 0.157,
+      "k": 2.335
+    },
+    {
+      "state": "Andhra Pradesh",
+      "cities": 4,
+      "wpd": 180.842,
+      "cf": 0.152,
+      "k": 2.53
+    },
+    {
+      "state": "Goa",
+      "cities": 1,
+      "wpd": 171.655,
+      "cf": 0.149,
+      "k": 2.431
+    },
+    {
+      "state": "Tamil Nadu",
+      "cities": 7,
+      "wpd": 168.169,
+      "cf": 0.143,
+      "k": 2.471
+    },
+    {
+      "state": "Rajasthan",
+      "cities": 7,
+      "wpd": 156.388,
+      "cf": 0.135,
+      "k": 2.23
+    },
+    {
+      "state": "Madhya Pradesh",
+      "cities": 4,
+      "wpd": 137.096,
+      "cf": 0.117,
+      "k": 2.398
+    },
+    {
+      "state": "Kerala",
+      "cities": 2,
+      "wpd": 127.24,
+      "cf": 0.108,
+      "k": 2.281
+    },
+    {
+      "state": "East",
+      "cities": 4,
+      "wpd": 116.278,
+      "cf": 0.096,
+      "k": 2.268
+    },
+    {
+      "state": "Uttar Pradesh",
+      "cities": 5,
+      "wpd": 110.844,
+      "cf": 0.092,
+      "k": 2.153
+    },
+    {
+      "state": "North (other)",
+      "cities": 6,
+      "wpd": 83.297,
+      "cf": 0.067,
+      "k": 2.125
+    }
+  ],
+  "diurnal": {
+    "peak_hour": 21,
+    "min_hour": 6,
+    "peak_to_min": 1.3235022277385011,
+    "region_amplitude": {
+      "North-west": 0.6,
+      "Central": 0.19,
+      "South": 0.57,
+      "North": 0.46,
+      "East": 0.42
+    },
+    "region_peak_hour": {
+      "North-west": 23,
+      "Central": 1,
+      "South": 13,
+      "North": 22,
+      "East": 19
+    },
+    "july_peak": 455.60941267265883,
+    "july_peak_hour": 12
+  },
+  "roses": {
+    "Bhuj": {
+      "sw_w_energy_share": 79.52483781432299,
+      "sw_w_time_share": 65.3946923597025,
+      "top_sector_deg": 247.50000000000003,
+      "top_sector_energy": 37.86071734115763
+    },
+    "Tuticorin": {
+      "sw_w_energy_share": 70.74781240919867,
+      "sw_w_time_share": 52.9918864097363,
+      "top_sector_deg": 270.0,
+      "top_sector_energy": 33.70164712085433
+    },
+    "Bengaluru": {
+      "sw_w_energy_share": 62.48132219111882,
+      "sw_w_time_share": 37.94793779580798,
+      "top_sector_deg": 270.0,
+      "top_sector_energy": 39.05548421953861
+    }
+  },
+  "droughts": {
+    "days": 987,
+    "longest_city": [
+      {
+        "city": "Dehradun",
+        "longest_days": 44
+      },
+      {
+        "city": "Shimla",
+        "longest_days": 44
+      },
+      {
+        "city": "Jamnagar",
+        "longest_days": 43
+      }
+    ],
+    "median_longest_days": 13.0,
+    "median_events_ge3d": 24.0,
+    "share_drought_days_NDJF": 0.36808765622324946,
+    "share_days_NDJF": 0.303951367781155,
+    "monthly_drought_freq_all": {
+      "1": 20.8,
+      "2": 18.5,
+      "3": 16.8,
+      "4": 16.3,
+      "5": 15.2,
+      "6": 9.6,
+      "7": 8.0,
+      "8": 18.5,
+      "9": 25.9,
+      "10": 45.8,
+      "11": 36.4,
+      "12": 25.7
+    },
+    "region_monthly_peak": {
+      "North-west": 11,
+      "Central": 10,
+      "South": 10,
+      "North": 10,
+      "East": 10
+    },
+    "aggregation": {
+      "median_city": 0.3069908814589666,
+      "best_city_share": 0.11955420466058764,
+      "region": {
+        "North-west": 0.10536980749746708,
+        "Central": 0.10435663627152988,
+        "South": 0.13576494427558258,
+        "North": 0.42249240121580545,
+        "East": 0.3475177304964539
+      },
+      "national": 0.07193515704154002,
+      "national_longest_days": 12,
+      "cv_city_median": 1.0665777063444979,
+      "cv_national": 0.6106360524476396
+    },
+    "region_corr": {
+      "North-west": {
+        "North-west": 1.0,
+        "Central": 0.6,
+        "South": 0.32,
+        "North": 0.27,
+        "East": 0.26
+      },
+      "Central": {
+        "North-west": 0.6,
+        "Central": 1.0,
+        "South": 0.75,
+        "North": 0.13,
+        "East": 0.4
+      },
+      "South": {
+        "North-west": 0.32,
+        "Central": 0.75,
+        "South": 1.0,
+        "North": -0.03,
+        "East": 0.34
+      },
+      "North": {
+        "North-west": 0.27,
+        "Central": 0.13,
+        "South": -0.03,
+        "North": 1.0,
+        "East": 0.42
+      },
+      "East": {
+        "North-west": 0.26,
+        "Central": 0.4,
+        "South": 0.34,
+        "North": 0.42,
+        "East": 1.0
+      }
+    }
+  },
+  "sensitivity": {
+    "alpha": [
+      {
+        "alpha": 0.1,
+        "wpd": 145.0935,
+        "cf": 0.1222
+      },
+      {
+        "alpha": 0.14,
+        "wpd": 157.6782,
+        "cf": 0.1331
+      },
+      {
+        "alpha": 0.2,
+        "wpd": 178.631,
+        "cf": 0.151
+      },
+      {
+        "alpha": 0.25,
+        "wpd": 198.2036,
+        "cf": 0.1672
+      }
+    ],
+    "std_density_wpd": 170.64965830062374,
+    "national_janaug": {
+      "2024": 175.7,
+      "2025": 180.5,
+      "2026": 170.0
+    },
+    "spearman": {
+      "2024-2025": 0.9299786045736195,
+      "2024-2026": 0.9506515879852174,
+      "2025-2026": 0.9141960043346576
+    },
+    "city_iav_median": 0.09306303743716746,
+    "city_iav_max": {
+      "city": "Kochi",
+      "cv": 0.2542276800465729
+    }
+  },
+  "ml": {
+    "base_rmse_sample": 154.74513402603483,
+    "importance": {
+      "Lag 168 h": 1.58,
+      "Humidity": 3.58,
+      "Temperature": 3.73,
+      "Pressure": 5.14,
+      "Hour of day": 6.15,
+      "Day of year": 17.79,
+      "Wind direction": 26.13,
+      "Location": 30.98,
+      "Lag 24 h": 81.23
+    },
+    "spearman_r2_wpd": 0.6336014671557162,
+    "spearman_r2_k": 0.3702468775972424,
+    "cities_beating_persistence": 45,
+    "skill_median": 0.06035332604394911,
+    "region_r2_median": {
+      "Central": 0.39,
+      "East": 0.17,
+      "North": 0.13,
+      "North-west": 0.37,
+      "South": 0.62
+    }
+  }
+}

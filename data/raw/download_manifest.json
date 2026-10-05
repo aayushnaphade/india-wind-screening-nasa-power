@@ -1,0 +1,15 @@
+{
+  "source": "NASA POWER hourly API",
+  "parameters": [
+    "ALLSKY_SFC_SW_DWN",
+    "WS50M",
+    "WD50M",
+    "T2M",
+    "RH2M",
+    "PS"
+  ],
+  "start": "20240101",
+  "end": "20260913",
+  "files": 60,
+  "records": 1421280
+}
