@@ -1,0 +1,4 @@
+# Store data and outputs byte-for-byte so SHA256SUMS match on every platform
+data/** -text
+tables/** -text
+figures/** binary
